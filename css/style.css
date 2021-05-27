@@ -25,11 +25,12 @@
     float: left;
 }
 
+
 /* Body */
 
 /* Header */
 .header-top {
-    height: 80px;
+    height: 100px;
     background-color: #e579e6;
     margin: 20px 0;
 }
@@ -41,6 +42,9 @@
 }
 
 /* Main */
+main {
+    padding-bottom: 1px;
+}
 section {
     background-color: #abcfe7;
 }
@@ -49,25 +53,24 @@ section {
     margin: 20px 0;
 }
 
-
 .title-main {
     height: 60px;
 }
 
 .sidebar-section {
-    width: 200px;
-    height: 370px;
+    width: 20%;
+    height: 450px;
 }
 
 .main-section {
-    width: 560px;
-    height: 370px;
+    width: calc(60% - 40px);
+    height: 450px;
     margin: 0 20px;
 }
 
 /* Footer */
 footer {
-    height: 40px;
-    margin: 20px 0;
+    height: 60px;
+    margin: 9px 0 20px 0;
     background-color: #8900ff;
 }
